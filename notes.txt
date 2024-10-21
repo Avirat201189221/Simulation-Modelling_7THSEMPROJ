@@ -1,0 +1,11 @@
+200epoch_batch16:
+
+recognizes all characters except T with inclination towards F,B 
+
+200epoch_batch32:
+
+recognizes all characters except T with inclination to B, cannot regcognize M and N, confusion between F and W
+
+200epoch_batchh16_right_hand:
+
+regcognizes all characters except T.

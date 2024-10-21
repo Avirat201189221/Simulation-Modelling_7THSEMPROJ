@@ -1,0 +1,4 @@
+mediapipe
+cvzone
+tensorflow
+scikit-learn
