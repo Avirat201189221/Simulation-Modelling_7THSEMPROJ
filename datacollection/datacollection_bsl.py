@@ -11,7 +11,7 @@ detector=HandDetector(maxHands=1) #detector object
 
 offset=20 #img offset
 imgSize=500 #box size
-folder="data/"
+folder="data/BSL"
 
 count=0
 
