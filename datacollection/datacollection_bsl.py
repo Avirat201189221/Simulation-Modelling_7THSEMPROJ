@@ -7,11 +7,11 @@ from cvzone.HandTrackingModule import HandDetector
 
 cap=cv2.VideoCapture(0)#capture object
 
-detector=HandDetector(maxHands=1) #detector object
+detector=HandDetector(maxHands=2) #detector object
 
 offset=20 #img offset
 imgSize=500 #box size
-folder="data/BSL"
+folder="data/BSL/"
 
 count=0
 

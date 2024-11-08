@@ -7,7 +7,7 @@ from cvzone.ClassificationModule import Classifier
 
 cap=cv2.VideoCapture(0)#capture object
 detector=HandDetector(maxHands=1) #detector object
-classifier=Classifier("model\keras_model_200epoch_right_hand.h5","model/labels_right_hand.txt") #classifier object
+classifier=Classifier("model/ASL/keras_model_200epoch_right_hand.h5","modelASL//labels_right_hand.txt") #classifier object
 
 offset=20 #img offset
 imgSize=500 #box size
