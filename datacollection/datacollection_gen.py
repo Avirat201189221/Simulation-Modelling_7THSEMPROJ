@@ -67,12 +67,12 @@ while(True):
 
     elif (key == ord("3") ):
         count+=1
-        cv2.imwrite(f'{folder}Two/{str(count)}.jpg',whiteimg)
+        cv2.imwrite(f'{folder}Three/{str(count)}.jpg',whiteimg)
         print(count)
     
     elif (key == ord("4") ):
         count+=1
-        cv2.imwrite(f'{folder}Two/{str(count)}.jpg',whiteimg)
+        cv2.imwrite(f'{folder}Four/{str(count)}.jpg',whiteimg)
         print(count)
 
     elif (key == ord("5") ):
