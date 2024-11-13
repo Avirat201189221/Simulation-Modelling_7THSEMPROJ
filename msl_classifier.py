@@ -13,7 +13,7 @@ offset=20 #img offset
 imgSize=500 #box size
 folder="data/"
 
-labels=("A","B","C","D","E","F","G","H","I","J","K","L","LL","M","N","O","P","Q","R","RR","S","T","U","V","W","X","Y","Z")
+labels=("A","B","C","D","E","F","G","H","I","J","K","L","LL","M","N","O","P","Q","R","RR","S","T","U","V","W","X","Y","Z",".")
 
 while(True):
     success,img =cap.read()#success is boolean variable and img is array of every pixel 
